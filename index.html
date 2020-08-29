@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<meta charset="utf-8">
+<style type="text/css">
+
+
+#interface{
+  width: 600px;
+  padding-bottom: 50px;
+  margin: 5px;
+  text-align: center;
+  background-color: #FFEFD7;
+  box-shadow: 1px 1px 10px;
+}
+
+h1{
+  padding: 20px;
+}
+
+table{
+  border-style:dashed;
+  margin: auto;
+}
+
+
+th{
+  padding: 20px;
+}
+
+tr{
+  padding: 30px;
+  
+}
+
+td{
+  padding: 5px 40px 5px 40px;
+}
+
+input{
+  width: 40px;
+  padding-right: -20px;
+}
+
+#total td{
+  padding-top: 50px;
+}
+
+#botao{
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
+    <div id="interface">
+      <h1>Comanda</h1>
+
+      <table>
+        <tr class="relatorio">
+          <th>Pedido</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+        </tr>
+        
+        <tr>
+          <td class="subtitulo porcoes" colspan="3">Porções</td>
+        </tr>
+
+        <tr class="item porcoes">
+          <td>Batata frita</td>
+          <td>R$ 20,20</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Mandioquinha frita</td>
+          <td>R$ 20,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Porção de pastéis</td>
+          <td>R$ 20,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Porção de Calabresa</td>
+          <td>R$ 20,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Filé de Tilápia</td>
+          <td>R$ 25,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Bolinho de bacalhau</td>
+          <td>R$ 25,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Frango a Passarinho</td>
+          <td>R$ 24,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item porcoes">
+          <td>Costelinha de porco</td>
+          <td>R$ 24,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+
+
+
+        <tr>
+          <td class="subtitulo espetinhocom" colspan="3" >Espetinhos Completos</td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Picanha</td>
+          <td>R$ 25,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Contra filé</td>
+          <td>R$ 23,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Filé com bacon</td>
+          <td>R$ 23,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Cupim</td>
+          <td>R$ 18,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Káfta</td>
+          <td>R$ 16,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Frango com bacon</td>
+          <td>R$ 16,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhocom">
+          <td>Queijo</td>
+          <td>R$ 16,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+
+
+        <tr>
+          <td class="subtitulo espetinhosim" colspan="3" >Espetinhos Simples</td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Picanha</td>
+          <td>R$ 9,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Contra filé</td>
+          <td>R$ 7,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Filé com bacon</td>
+          <td>R$ 8,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Cupim</td>
+          <td>R$ 6,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Káfta</td>
+          <td>R$ 5,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Frango com bacon</td>
+          <td>R$ 6,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item espetinhosim">
+          <td>Queijo</td>
+          <td>R$ 6,00</td>
+          <td><input type="number"min="0" value="0"></td>
+        </tr>
+
+
+        <tr>
+          <td class="subtitulo bebidas" colspan="3" >Bebidas</td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Chopp Brahma</td>
+          <td>R$ 12,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Cerveja lata</td>
+          <td>R$ 5,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Cerveja Longneck</td>
+          <td>R$ 8,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Cerveja 600</td>
+          <td>R$ 12,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Refrigerante lata</td>
+          <td>R$ 6,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Refrigerante 600</td>
+          <td>R$ 6,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Refrigerante 1L</td>
+          <td>R$ 8,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Refrigerante 2L</td>
+          <td>R$ 12,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Suco copo</td>
+          <td>R$ 8,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr class="item bebidas">
+          <td>Suco jarra</td>
+          <td>R$ 12,00</td>
+          <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr id="total">
+          <td colspan="4"></td>
+        </tr>
+      </table>
+      <button id="botao" type="button" name="button" onclick="finalizar()">Concluir</button>
+    </div>
+    <script src="javascript.js" charset="utf-8"></script>
+  </body>
+</html>
