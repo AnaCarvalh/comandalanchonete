@@ -1,2 +1,2 @@
 # comandalanchonete
-Comanda
+:fries: Comanda
